@@ -11,6 +11,8 @@ The project is structured into several components, each addressing specific task
 - **create_monthly_trigger.py**: Scripts for scheduling pipelines to trigger on the last Saturday of every month.
 
 ## Usage
+
 1. Clone this repository.
-2. Navigate to each directory (`integration_runtime/`, `ftp_sftp_setup/`, etc.).
+2. Navigate to each script (`setup_integration_runtime.py`, `configure_ftp_sftp.py`, `create_adf_pipeline.py`, `create_incremental_load_pipeline.py`, `create_monthly_trigger.py`).
 3. Execute the respective Python scripts to simulate the configuration and creation processes.
+
